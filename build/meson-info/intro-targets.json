@@ -1,0 +1,61 @@
+[
+  {
+    "name": "mpvpaper-stop",
+    "id": "mpvpaper-stop@exe",
+    "type": "executable",
+    "defined_in": "/home/zonic/mpvpaper-stop/meson.build",
+    "filename": [
+      "/home/zonic/mpvpaper-stop/build/mpvpaper-stop"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/zonic/mpvpaper-stop/build/mpvpaper-stop.p",
+          "-I/home/zonic/mpvpaper-stop/build",
+          "-I/home/zonic/mpvpaper-stop",
+          "-I/home/zonic/mpvpaper-stop/include",
+          "-I/usr/include/cjson",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu11",
+          "-O3"
+        ],
+        "sources": [
+          "/home/zonic/mpvpaper-stop/src/main.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-O1",
+          "/usr/lib/libcjson.so"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libcjson"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/usr/local/bin/mpvpaper-stop"
+    ]
+  }
+]

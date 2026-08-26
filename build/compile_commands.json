@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/zonic/mpvpaper-stop/build",
+    "command": "cc -Impvpaper-stop.p -I. -I.. -I../include -I/usr/include/cjson -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu11 -O3 -MD -MQ mpvpaper-stop.p/src_main.c.o -MF mpvpaper-stop.p/src_main.c.o.d -o mpvpaper-stop.p/src_main.c.o -c ../src/main.c",
+    "file": "../src/main.c",
+    "output": "mpvpaper-stop.p/src_main.c.o"
+  }
+]

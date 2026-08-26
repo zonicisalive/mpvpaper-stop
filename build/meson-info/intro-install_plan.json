@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "/home/zonic/mpvpaper-stop/build/mpvpaper-stop": {
+      "destination": "{bindir}/mpvpaper-stop",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    }
+  }
+}

@@ -1,0 +1,52 @@
+Build started at 2026-08-26T19:28:47.277858
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.11.1
+Source dir: /home/zonic/mpvpaper-stop
+Build dir: /home/zonic/mpvpaper-stop/build
+Build type: native build
+Running command: /usr/bin/cat /home/zonic/mpvpaper-stop/VERSION
+--- stdout ---
+0.1.0
+
+--- stderr ---
+
+
+Project name: mpvpaper-stop
+Project version: 0.1.0
+C compiler for the host machine: cc (gcc 16.1.1 "cc (GCC) 16.1.1 20260625")
+C linker for the host machine: cc ld.bfd 2.46.1
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.46.1
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+C compiler for the build machine: cc (gcc 16.1.1 "cc (GCC) 16.1.1 20260625")
+C linker for the build machine: cc ld.bfd 2.46.1
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency libcjson for host machine found: YES 1.7.19 (cached)
+Build targets in project: 1
+
+Found ninja-1.13.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/zonic/mpvpaper-stop/build/meson-private/tmp21ggmo2n
+Code:
+
+-----------
+Command line: `cc /home/zonic/mpvpaper-stop/build/meson-private/tmp21ggmo2n/testfile.c -o /home/zonic/mpvpaper-stop/build/meson-private/tmp21ggmo2n/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/16/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/x86_64-pc-linux-gnu/16/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/16/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+-----------

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "libcjson",
+    "type": "pkgconfig",
+    "version": "1.7.19",
+    "compile_args": [
+      "-I/usr/include/cjson"
+    ],
+    "link_args": [
+      "/usr/lib/libcjson.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "cjson_dep"
+    ]
+  }
+]
