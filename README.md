@@ -7,7 +7,7 @@
 
 ---
 
-## 🌟 What's New in this Fork
+## What's New in this Fork
 
 * **Native Niri Compositor Support**: Full JSON-RPC IPC communication and real-time `"EventStream"` socket integration.
 * **Multi-Screen Independent Management (Single Daemon)**: One single `mpvpaper-stop` process can manage multiple displays simultaneously (e.g. `DP-1`, `DP-2`, `HDMI-A-1`). It pauses only the monitor that has windows open, while allowing empty monitors to keep playing!
