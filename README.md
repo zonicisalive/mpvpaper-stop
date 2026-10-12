@@ -9,11 +9,11 @@
 
 ## 🌟 What's New in this Fork
 
-* 🌀 **Native Niri Compositor Support**: Full JSON-RPC IPC communication and real-time `"EventStream"` socket integration.
-* 🖥️ **Multi-Screen Independent Management (Single Daemon)**: One single `mpvpaper-stop` process can manage multiple displays simultaneously (e.g. `DP-1`, `DP-2`, `HDMI-A-1`). It pauses only the monitor that has windows open, while allowing empty monitors to keep playing!
-* 🔄 **Auto-Reconnecting Lifecycle**: Runs continuously in the background and automatically connects/reconnects whenever `mpvpaper` starts, stops, or restarts without crashing.
-* ⚡ **Performance & Zero CPU Footprint**: Uses persistent domain sockets, fast-path workspace checks, kernel `select()` blocking (0.0% CPU when idle), and compiled with `-O3 -flto`.
-* 🔀 **Automatic Compositor Detection**: Automatically detects whether you are running **Niri** or **Hyprland** at runtime.
+* **Native Niri Compositor Support**: Full JSON-RPC IPC communication and real-time `"EventStream"` socket integration.
+* **Multi-Screen Independent Management (Single Daemon)**: One single `mpvpaper-stop` process can manage multiple displays simultaneously (e.g. `DP-1`, `DP-2`, `HDMI-A-1`). It pauses only the monitor that has windows open, while allowing empty monitors to keep playing!
+* **Auto-Reconnecting Lifecycle**: Runs continuously in the background and automatically connects/reconnects whenever `mpvpaper` starts, stops, or restarts without crashing.
+* **Performance & Zero CPU Footprint**: Uses persistent domain sockets, fast-path workspace checks, kernel `select()` blocking (0.0% CPU when idle), and compiled with `-O3 -flto`.
+* **Automatic Compositor Detection**: Automatically detects whether you are running **Niri** or **Hyprland** at runtime.
 
 ---
 
